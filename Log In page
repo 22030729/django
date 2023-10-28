@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+2<html>
+3<head>
+4    <title>Login & Signup Page</title>
+5    <link rel="stylesheet" type="text/css" href="styles.css">
+6</head>
+7<body>
+8    <div class="container">
+9        <form id="loginForm">
+10            <h2>Login</h2>
+11            <input type="text" id="loginUsername" placeholder="Username" required>
+12            <input type="password" id="loginPassword" placeholder="Password" required>
+13            <button type="submit">Login</button>
+14        </form>
+15        <form id="signupForm">
+16            <h2>Signup</h2>
+17            <input type="text" id="signupUsername" placeholder="Username" required>
+18            <input type="password" id="signupPassword" placeholder="Password" required>
+19            <button type="submit">Signup</button>
+20        </form>
+21    </div>
+22</body>
+23</html>
